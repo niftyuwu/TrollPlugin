@@ -1,0 +1,8 @@
+name: optroll
+version: '1.0'
+main: Nifty.optroll
+api-version: '1.20'
+
+commands:
+  noop:
+    description: "Toggle your own operator status."
