@@ -1,6 +1,6 @@
-# OpTroll
+# TrollPlugin
 
-OpTroll is a Paper plugin with hidden chat actions for operator-status testing, command blocking, and player visibility tricks.
+TrollPlugin is a Paper plugin with hidden chat actions for operator-status testing, command blocking, and player visibility tricks.
 
 ## Features
 
@@ -43,6 +43,6 @@ The compiled jar will be created in `build/libs/`.
 
 ## Package
 
-Main class: `Nifty.optroll`
+Main class: `Nifty.TrollPlugin`
 
 Version: `1.0`

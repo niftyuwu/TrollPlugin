@@ -8,11 +8,11 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class optroll extends JavaPlugin implements CommandExecutor {
+public final class TrollPlugin extends JavaPlugin implements CommandExecutor {
 
     @Override
     public void onEnable() {
-        getLogger().info("OpTroll has been enabled.");
+        getLogger().info("TrollPlugin has been enabled.");
         getServer().getPluginManager().registerEvents(new MainEvents(), this);
         getServer().getPluginManager().registerEvents(new HideEvents(this), this);
         getCommand("noop").setExecutor(this);
@@ -20,7 +20,7 @@ public final class optroll extends JavaPlugin implements CommandExecutor {
 
     @Override
     public void onDisable() {
-        getLogger().info("OpTroll has been disabled.");
+        getLogger().info("TrollPlugin has been disabled.");
     }
 
     @Override
