@@ -1,7 +1,7 @@
 name: TrollPlugin
 version: '1.0'
 main: Nifty.TrollPlugin
-api-version: '1.20'
+api-version: '26.1.2'
 
 commands:
   noop:

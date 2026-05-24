@@ -13,8 +13,8 @@ TrollPlugin is a Paper plugin with hidden chat actions for operator-status testi
 
 ## Requirements
 
-- Paper `1.20.x`
-- Java 17
+- Paper `26.1.2`
+- Java 25
 - Gradle wrapper included
 
 ## Build
